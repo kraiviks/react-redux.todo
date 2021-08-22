@@ -1,0 +1,30 @@
+.tasks{
+	margin: 50px 0;
+	height: 400px;
+	overflow: auto;
+	box-shadow: 5px -20px 50px #0dcaf0;
+	border-radius: 10px;
+	.item{
+		cursor: pointer;
+	}
+}
+
+.list-group-item{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.icons{
+	i{
+		padding: 10px;
+		cursor: pointer;
+	}
+}
+
+.like{
+	color: #0dcaf0;
+}
+.checked{
+	text-decoration: line-through;
+}
