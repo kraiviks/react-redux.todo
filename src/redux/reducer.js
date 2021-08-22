@@ -21,7 +21,7 @@ const reducer = (state = todoAppState, action) => {
 			];
 			return {
 				...state,
-				todos: [...oldArr, ...newArr],
+				todos: [...newArr, ...oldArr],
 			};
 		case "DEL":
 			const endArr = state.todos.filter(

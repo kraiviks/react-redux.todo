@@ -11,8 +11,13 @@ const FormInput = ({ add }) => {
 		add(textIput);
 		setTextInput("");
 	};
+	const onKeyPress = (e) =>{ 
+		if (e.key === "Enter") {
+			onSubmit(e)
+		}
+	}
 	return (
-		<Form className="form" onSubmit={onSubmit}>
+		<Form className="form" onSubmit={onSubmit} onKeyPress={onKeyPress}>
 			<FormGroup>
 				<Label for="exampleText">Enter task:</Label>
 				<Input
