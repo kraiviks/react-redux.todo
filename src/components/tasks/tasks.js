@@ -21,8 +21,8 @@ const Tasks = ({ todos, del, like, checkTask, textSearch }) => {
 	};
 
 	const sort = (items) => {
-		return items.sort((a, b) => a.check - b.check)
-	}
+		return items.sort((a, b) => a.check - b.check);
+	};
 	let filterList = sort(search(todos, textSearch));
 
 	const itemList = filterList.map((item) => {
@@ -40,7 +40,10 @@ const Tasks = ({ todos, del, like, checkTask, textSearch }) => {
 					</InputGroupText>
 				</InputGroupAddon>
 				<div className={item.like ? "item like" : "item"}>
-					<div className={item.check ? "checked" : null}>
+					<div
+						className={item.check ? "checked" : null}
+						onClick={() => like(item.id)}
+					>
 						{item.task}
 					</div>
 				</div>
@@ -62,7 +65,7 @@ const Tasks = ({ todos, del, like, checkTask, textSearch }) => {
 			{itemList.length > 0 ? (
 				itemList
 			) : (
-				<h5 style={{ textAlign: "center" }}>
+				<h5 style={{ textAlign: "center", marginTop: "150px" }}>
 					Plese enter task (:ˆ-ˆ:)
 				</h5>
 			)}

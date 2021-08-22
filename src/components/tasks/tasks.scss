@@ -1,10 +1,11 @@
 .tasks{
 	margin: 50px 0;
-	height: 400px;
+	height: 300px;
 	overflow: auto;
 	box-shadow: 5px -20px 50px #0dcaf0;
 	border-radius: 10px;
 	.item{
+		margin-left: 30px;
 		cursor: pointer;
 	}
 }
@@ -12,10 +13,21 @@
 .list-group-item{
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: left;
+}
+
+.input-group-text{
+	padding: 10px;
+	input{
+		width: 20px;
+		height: 20px;
+	}
 }
 
 .icons{
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
 	i{
 		padding: 10px;
 		cursor: pointer;
