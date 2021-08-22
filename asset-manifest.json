@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kraiviks/react-redux.todo/static/css/main.1dacf796.chunk.css",
+    "main.js": "/kraiviks/react-redux.todo/static/js/main.dde40c85.chunk.js",
+    "main.js.map": "/kraiviks/react-redux.todo/static/js/main.dde40c85.chunk.js.map",
+    "runtime-main.js": "/kraiviks/react-redux.todo/static/js/runtime-main.a6871d6f.js",
+    "runtime-main.js.map": "/kraiviks/react-redux.todo/static/js/runtime-main.a6871d6f.js.map",
+    "static/css/2.818011ed.chunk.css": "/kraiviks/react-redux.todo/static/css/2.818011ed.chunk.css",
+    "static/js/2.c2e353d4.chunk.js": "/kraiviks/react-redux.todo/static/js/2.c2e353d4.chunk.js",
+    "static/js/2.c2e353d4.chunk.js.map": "/kraiviks/react-redux.todo/static/js/2.c2e353d4.chunk.js.map",
+    "index.html": "/kraiviks/react-redux.todo/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/kraiviks/react-redux.todo/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.1dacf796.chunk.css.map": "/kraiviks/react-redux.todo/static/css/main.1dacf796.chunk.css.map",
+    "static/js/2.c2e353d4.chunk.js.LICENSE.txt": "/kraiviks/react-redux.todo/static/js/2.c2e353d4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6871d6f.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.c2e353d4.chunk.js",
+    "static/css/main.1dacf796.chunk.css",
+    "static/js/main.dde40c85.chunk.js"
+  ]
+}
