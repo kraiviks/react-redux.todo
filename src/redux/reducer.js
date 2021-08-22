@@ -1,10 +1,10 @@
 const todoAppState = {
 	todos: [
-		{ task: "Kraiviks", like: true, check:false, id: 1 },
-		{ task: "Argon", like: false, check:false, id: 13 },
-		{ task: "Velviks", like: false, check:false, id: 4 },
-		{ task: "League of legends", like: true, check:false, id: 5 },
-	]
+		{ task: "Add task", like: true, check: false, id: 1 },
+		{ task: "Утренняя пробежка", like: false, check: false, id: 13 },
+		{ task: "Почистить mac от приложений", like: false, check: false, id: 4 },
+		{ task: "Видалити непотрібні додатки на телефоні", like: true, check: false, id: 5 },
+	],
 };
 
 const reducer = (state = todoAppState, action) => {
