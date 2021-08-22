@@ -65,7 +65,7 @@ const Tasks = ({ todos, del, like, checkTask, textSearch }) => {
 			{itemList.length > 0 ? (
 				itemList
 			) : (
-				<h5 style={{ textAlign: "center", marginTop: "150px" }}>
+				<h5 style={{ textAlign: "center", marginTop: "10px" }}>
 					Plese enter task (:ˆ-ˆ:)
 				</h5>
 			)}
